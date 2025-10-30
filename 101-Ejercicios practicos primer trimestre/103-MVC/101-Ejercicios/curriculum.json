@@ -1,0 +1,12 @@
+{
+  "datos personales":{
+    "nombre":"Jose Vicente",
+    "apellidos":"Carratalá Sanchis",
+    "email":"info@jocarsa.com",
+    "telefono":"620891718",
+    "direccion":"La calle de Jose Vicente",
+    "codigo_postal":"46000 Valencia"
+  },
+  "experiencia":"",
+  "formacion":""
+}
