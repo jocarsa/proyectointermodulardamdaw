@@ -49,10 +49,10 @@ def holamundo():                          # Defino una funcion
   for fila in filas:                        # Para cada elemento de la lista
     cadena += '''
       <article>
-        <p>Categoria</p>
-        <h3>Titulo</h3>
-        <p>Descripcion</p>
-        <img src="josevicente.jpg">
+        <p>'''+fila[0]+'''</p>
+        <h3>'''+fila[2]+'''</h3>
+        <p>'''+fila[3]+'''</p>
+        <img src="'''+fila[4]+'''">
       </article>
     '''
   ########### AQUI PONGO EL FINAL
