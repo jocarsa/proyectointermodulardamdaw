@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Plantilla fetch</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>--nombre--</h1>
+    <h2>--apellidos--</h2>
+    <h3>--correo--</h3>
+    <script>
+      fetch("static/curriculum.json")
+      .then(function(respuesta){
+          return respuesta.json(); // La info viene en json
+        }
+      )
+      .then(function(datos){
+        console.log(datos);       // Vamos a vomitar en consola
+        document.querySelector("h1").textContent = datos.nombre
+        document.querySelector("h2").textContent = datos.apellidos
+        document.querySelector("h3").textContent = datos.correo
+      })
+    </script>
+  </body>
+</html>
