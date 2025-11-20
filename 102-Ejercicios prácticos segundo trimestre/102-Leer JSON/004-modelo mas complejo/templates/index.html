@@ -16,9 +16,9 @@
       )
       .then(function(datos){
         console.log(datos);       // Vamos a vomitar en consola
-        document.querySelector("h1").textContent = datos.nombre
-        document.querySelector("h2").textContent = datos.apellidos
-        document.querySelector("h3").textContent = datos.correo
+        document.querySelector("h1").textContent = datos.datos_personales.nombre
+        document.querySelector("h2").textContent = datos.datos_personales.apellidos
+        document.querySelector("h3").textContent = datos.datos_personales.correo
       })
     </script>
   </body>

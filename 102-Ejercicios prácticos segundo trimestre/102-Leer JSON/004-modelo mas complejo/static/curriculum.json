@@ -2,6 +2,12 @@
   "datos_personales":{
     "nombre":"Jose Vicente",
     "apellidos":"Carratalá Sanchis",
-    "correo":"info@jocarsa.com"
-  }
+    "correo":"info@jocarsa.com",
+    "telefonos":["653563","5432234"]
+  },
+  "experiencias_laborales":[
+    "experiencia1",
+    "experiencia2"
+  ]
+  
 }
