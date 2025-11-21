@@ -20,7 +20,24 @@
           <a>{{tabla}}</a>
         {% endfor %}
       </nav>
-      <section>Contenido
+      <section>
+        <style>
+          table{width:100%;border-collapse:collapse;border:2px solid indigo;}
+          table th,table td{padding:10px;text-align:center;}
+          table thead{background:indigo;color:white;}
+        </style>
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th><th>Apellidos</th><th>Email</th><th>Direccion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Jose</td><td>Garcia</td><td>jose@garcia.com</td><td>Calle de Jose</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
     </main>
   </body>
