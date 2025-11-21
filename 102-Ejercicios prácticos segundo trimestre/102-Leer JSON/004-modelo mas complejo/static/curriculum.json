@@ -6,8 +6,18 @@
     "telefonos":["653563","5432234"]
   },
   "experiencias_laborales":[
-    "experiencia1",
-    "experiencia2"
+    {
+      "titulo":"Profesor",
+      "empresa":"CEAC",
+      "timespan":"2025-presente",
+      "descripcion":"Profesor en ciclos formativos de formación profesional"
+    },
+    {
+      "titulo":"Profesor",
+      "empresa":"CEAC",
+      "timespan":"2025-presente",
+      "descripcion":"Profesor en ciclos formativos de formación profesional"
+    }
   ]
   
 }
