@@ -35,9 +35,13 @@
             </tr>
           </thead>
           <tbody>
+            {% for fila in mi_contenido_tabla:%}
             <tr>
-              <td>Jose</td><td>Garcia</td><td>jose@garcia.com</td><td>Calle de Jose</td>
+              {% for dato in fila:%}
+                <td>{{dato}}</td>
+              {% endfor %}
             </tr>
+            {% endfor %}
           </tbody>
         </table>
       </section>
