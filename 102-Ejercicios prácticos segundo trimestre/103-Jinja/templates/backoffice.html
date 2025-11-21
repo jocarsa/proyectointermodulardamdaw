@@ -29,7 +29,9 @@
         <table>
           <thead>
             <tr>
-              <th>Nombre</th><th>Apellidos</th><th>Email</th><th>Direccion</th>
+              {% for columna in mis_columnas:%}
+                <th>{{columna}}</th>
+              {% endfor %}
             </tr>
           </thead>
           <tbody>
