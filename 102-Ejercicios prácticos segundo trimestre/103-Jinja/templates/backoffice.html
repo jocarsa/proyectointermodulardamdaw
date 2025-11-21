@@ -16,9 +16,9 @@
     <header>Aplicación empresarial superchula de Jose Vicente</header>
     <main>
       <nav>
-        <a>Clientes</a>
-        <a>Productos</a>
-        <a>Pedidos</a>
+        {% for tabla in mis_tablas:%}
+          <a>{{tabla}}</a>
+        {% endfor %}
       </nav>
       <section>Contenido
       </section>
